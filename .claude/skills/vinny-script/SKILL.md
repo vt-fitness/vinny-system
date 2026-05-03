@@ -10,6 +10,12 @@ description: |
   - Match Vinny's actual writing voice (extracted from 8 IG posts)
   - Anti-hallucination: NEVER bịa Vinny là dad/married/has kids
   
+  CRITICAL: Save scripts to Content Tracker DATABASE (not standalone pages):
+  - Database: b5772d91-4b16-4910-bb95-277de6b2864f
+  - Data source: 699acf12-1be1-4182-aef8-165b7fe705a0
+  - Template: 20c26d27-530b-411f-81d0-f827f939819e ("Quick Content")
+  - Always populate ALL required properties per schema
+  
   Audience MIXED:
   - Primary segment: Single nam Việt-American 25-30 (Vinny's peers)
   - Secondary segment: Married/family nam Việt-American 30-45 (clients)
@@ -26,6 +32,7 @@ description: |
   - "vinny-script" (explicit invoke)
   - "script multi-angle" / "3 angles cho video"
   - "convert idea X sang script"
+  - "save scripts to Notion" / "save scripts to Content Tracker"
   
   Do NOT trigger for:
   - Idea brainstorming (use vinny-research instead)
@@ -34,7 +41,7 @@ description: |
   - Long-form YouTube scripts (>3 min)
 ---
 
-# Vinny Script Skill v1.2 — Multi-Angle Creative (Story-Grounded)
+# Vinny Script Skill v1.2.1 — Multi-Angle Creative (Story-Grounded + Notion DB Fixed)
 
 ## CRITICAL FIRST STEP — Pull Story Bank context
 
@@ -75,7 +82,7 @@ Read sections relevant to current request:
 - ❌ "Con trai mình" / "vợ mình" — Vinny KHÔNG có
 - ❌ Pre-2013 US life (Vinny arrived 2013, age 13-14)
 - ❌ Family stories beyond what's in Story Bank
-- ❌ Specific client names beyond anonymized format ("Anh Đ", "Anh V")
+- ❌ Specific client names beyond anonymized format
 
 ---
 
@@ -84,12 +91,11 @@ Read sections relevant to current request:
 ### Segment A: Vinny's peers (Primary - first-person voice)
 - Single nam Việt-American 25-30
 - Use: "Mình", "lúc mình", "tuần trước mình"
-- Personal experiences từ Story Bank (Vinny's actual life)
 
 ### Segment B: Coaching audience (Secondary - "anh đi trước" voice)
 - Married nam Việt-American 30-45 with family
 - Use: "Có anh em mình coach...", "Một bạn client làm [nghề]..."
-- Pull from Client Transformations Bank (8 anonymized cases)
+- Pull from Client Transformations Bank
 - NEVER first-person family stories
 
 ### Universal:
@@ -100,103 +106,53 @@ Read sections relevant to current request:
 
 ## STEP 1 — DETECT MODE
 
-Read user input + idea context để detect priority:
-
 ### MODE: Growth (default 40% of content)
 - Pure value content, no coaching CTA
-- Soft CTA: "save", "share with anh em", community building
-- Goal: viral potential, broader appeal
-- Format scope: ANY (talking head, B-roll, read caption, trend remix, POV, etc.)
+- Soft CTA: "save", "share with anh em"
+- Format scope: ANY format
 
-### MODE: MOF (Trust building, ~40% of MOF+BOF allocation)
+### MODE: MOF (Trust building, ~40% of MOF+BOF)
 - Vulnerability stories from Story Bank
-- Empathy with audience struggle
 - "Mình đã từng vậy" energy
-- Soft CTA: connection-building, save, community
-- Goal: trust + relatability
+- Soft CTA: connection-building
 
 ### MODE: BOF (Conversion-focused, ~20% of MOF+BOF)
 - Authority + transformation evidence
 - Pull from Client Transformations Bank
-- Soft DM coaching CTA OK (natural integration)
-- Goal: turn warm followers → discovery call → coaching client
+- Soft DM coaching CTA OK
 
 ### MODE: Hybrid
-- Default when ambiguous
-- Lean 40/60 across the script body
+- Default 40/60 split
 
 ---
 
 ## STEP 2 — DETECT SEGMENT
 
-Read idea details để detect target segment:
-
-### Segment A (Vinny's peers - first-person):
-**Idea signals:**
+### Segment A signals:
 - Single life, pre-30 identity, building business, dating
-- Self-taught fitness journey
-- Vietnamese-American immigrant experience  
-- Building wealth in 20s late
+- → First-person from Story Bank
 
-**Voice approach:**
-- Use: "Mình", "lúc mình", "hồi đó mình", "năm mình..."
-- Personal experiences ONLY from Story Bank
-- Direct first-person testimony
-
-### Segment B (Family/coaching clients - third-person):
-**Idea signals:**
+### Segment B signals:
 - Dad life, wife pressure, kid time, family balance
-- Married couple challenges
-- Family-related fitness struggles
-
-**Voice approach:**
-- Use: "Có anh em mình coach...", "Một bạn client...", "Mấy anh em làm nail..."
-- Pull from 8 Client Transformations Bank
-- NEVER first-person family stories
+- → Third-person from Client Transformations Bank
 
 ### Universal:
 - Fitness science, mythbusting
-- Either voice OK depending on framing
+- → Either voice OK
 
 ---
 
 ## STEP 3 — ANALYZE THE IDEA
 
-Before generating, evaluate:
+**Hook strength, Pillar fit, Format fit, Audience pain depth, Production effort, Authenticity check**
 
-**Hook strength:** What's the pattern interrupt? What hooks attention in 3s?
-
-**Pillar fit:** Mind / Nutrition / Training / Story / Culture
-- Mind/Story → vulnerability + narrative work well (pull Story Bank §7 lost period)
-- Nutrition/Training → mechanism reveal + specific advice work
-- Culture → cultural moments + family dynamics (third-person if family)
-- Story → Vinny first-person Story Bank chapters
-
-**Format fit:** What format best serves this idea?
-- Story content → Talking head, Cinematic, Read caption
-- Mechanism content → Talking head + B-roll
-- Trend application → Trend remix
-- Cultural moment → POV / Silent film, Cinematic
-- Authority content → Talking head, Read caption (caption depth)
-
-**Audience pain depth:** Surface-level vs deep struggle?
-- Deep pain → BOF/conversion-friendly (pull Client Transformations Bank)
-- Surface pain → Growth-friendly
-
-**Production effort:** 1-3
-- 1 = Talking head / Read caption (low effort)
-- 2 = B-roll + voiceover / Trend remix / POV (medium)
-- 3 = Cinematic / multi-scene / props (high)
-
-**Authenticity check:**
+**Authenticity check critical:**
 - Does this idea require Vinny to bịa story he can't tell?
-- If yes: REFRAME to use third-person (coaching client from Bank) or skip
+- If yes: REFRAME to use third-person (coaching client) or skip
 
 ---
 
 ## STEP 4 — GENERATE 2-3 ANGLES
-
-Generate 2-3 different creative approaches for the same idea. Each angle should use a different lens/format/voice. Pick from these creative levers:
 
 ### Storytelling angles (Story Bank grounded)
 
@@ -211,56 +167,13 @@ Generate 2-3 different creative approaches for the same idea. Each angle should 
 - Anh V family 6-pack (3 months)
 - Anh T DIY-failure → Flexible Diet
 - Anh B 12-week structured approach
-- Anh CN trust rebuild post-bad-coach
+- Anh CN trust rebuild
 
-**Day-in-life slice** (relatable moment from Story Bank)
-- Vinny's training routine
-- Coaching session observation
-- Mission gym daily
+**Direct response, Cultural, Visceral angles** — see Story Bank for sources
 
-**Behind-the-scenes** (show work)
-- Mission gym setup
-- Client check-in process
-- Programming session
+### Format-specific angles
 
-**Failure-then-lesson** (vulnerability + insight from Story Bank)
-- LA Fitness 0 clients early days
-- COVID gym shutdown reality check
-- 2019 lost period reckoning
-
-### Direct response angles
-- **Pattern interrupt + bold claim**
-- **Mechanism reveal** (TẠI SAO behind WHAT)
-- **Mythbusting**
-- **"If you want X, do Y"**
-- **Specific advice** ("3 thứ phải làm sau ca 12h")
-
-### Cultural angles
-- **Family dynamics** — cô chú (third-person observations)
-- **Workplace context** — nail salon, IT remote, restaurant grind
-- **Generation gap** — Việt parent vs personal path (Story Bank §4)
-- **Cultural code-switching**
-
-### Format-specific angles (NEW v1.2)
-
-**Read Caption Style:**
-- Static visual + "Read caption ⬇️" hook
-- Caption holds full content depth
-- Best for: long-form value, philosophy, complex topics
-
-**Trend Remix:**
-- Apply viral trend pattern from another niche
-- Maintain trend's mechanics
-- Add Vinny lens
-
-**POV / Silent Film:**
-- Visual storytelling, no/minimal talking
-- Best for: relatable moments, day-in-life
-
-### Hybrid combos (Vinny's signature)
-- Cultural pain + mechanism reveal + soft conversion
-- Personal story (Story Bank) + mythbusting + community CTA
-- Vulnerability + authority + invitation to coaching
+**Read Caption Style, Trend Remix, POV / Silent Film, Cinematic, Talking Head, B-roll**
 
 ---
 
@@ -269,25 +182,22 @@ Generate 2-3 different creative approaches for the same idea. Each angle should 
 ```
 ### Angle [N]: [Catchy descriptor — 3-5 chữ]
 
-**Approach:** [Which creative lever this uses — 1 sentence]
+**Approach:** [Which creative lever - 1 sentence]
 
-**Voice:** First-person (Vinny own from Story Bank §X) | Third-person (Client Transformations Bank #X) | Universal
+**Voice:** First-person (Vinny own from Story Bank §X) | Third-person (Client Bank #X) | Universal
 
 **Story Bank reference:** [Specific section/quote/client]
-- Example: "Story Bank §3 - Provocation moment, lunch break electrician helper"
-- Example: "Client Transformations Bank #2 - Anh Đ nail tech -41lbs in 5 months"
-- "N/A" if pure educational content
 
-**Format:** [Talking head / B-roll / Read caption / Trend remix / POV / Cinematic / Hybrid]
+**Format:** [Talking head / B-roll / Read caption / Trend remix / POV / Cinematic]
 
-**Why this works for THIS idea:** [Reasoning - what about this idea makes this angle a fit]
+**Why this works for THIS idea:** [Reasoning]
 
-**Authenticity check:** [Does this require Vinny to bịa? PASS/REFRAME needed]
+**Authenticity check:** [PASS/REFRAME needed]
 
 **Hook (giây 0-3) — 3 variations:**
-1. [Hook variation 1]
-2. [Hook variation 2]  
-3. [Hook variation 3]
+1. [Hook 1]
+2. [Hook 2]  
+3. [Hook 3]
 
 **Full script (timestamped):**
 
@@ -298,11 +208,7 @@ Generate 2-3 different creative approaches for the same idea. Each angle should 
 [25-30s] Close / CTA
 
 **Production notes:**
-- Visual cues
-- B-roll suggestions
-- Energy/pace
-- Music vibe (cinematic/upbeat/reflective)
-- Format-specific notes (if read caption: text positioning; if trend remix: original trend reference)
+- Visual cues, B-roll, energy/pace, music vibe
 
 **Length:** [30s / 45s / 60s / 90s]
 
@@ -311,85 +217,36 @@ Generate 2-3 different creative approaches for the same idea. Each angle should 
 **Predicted scores:**
 - Growth Potential: X/10
 - Conversion Potential: X/10
-- Vinny-Fit: X/10 (Story Bank reference verified?)
+- Vinny-Fit: X/10
 ```
 
 ---
 
 ## STEP 5 — RECOMMEND BEST ANGLE
 
-After 2-3 angles, output:
-
-```
-## Recommendation
-
-**Best angle for this idea:** Angle [N] — [descriptor]
-
-**Why this beats other options:**
-- [Reason 1 — specific to this idea/audience]
-- [Reason 2 — Story Bank ground truth strength]
-- [Reason 3 — production efficiency or platform fit]
-
-**Production tips:**
-- [Specific advice for shooting/editing]
-
-**Posting strategy:**
-- Best platform priority: TikTok / IG / FB / YouTube Shorts
-- Best posting day/time: [day] [time slot]
-- Caption focus: [growth-led / value-led / story-led]
-```
+After 2-3 angles, output recommendation with rationale.
 
 ---
 
-## STEP 6 — GENERATE CAPTIONS (ALL 4 PLATFORMS) — VINNY VOICE GROUNDED
+## STEP 6 — GENERATE CAPTIONS (4 PLATFORMS) — VINNY VOICE GROUNDED
 
-Pull Vinny's actual writing voice from Story Bank "Vinny's Writing Voice Patterns" section.
-
-### Caption 7-Step Structure (Vinny's actual signature pattern):
+### Caption 7-Step Structure (Vinny's signature):
 
 ```
-1. Opening congratulation / acknowledgment
-   "Hôm nay mình muốn..." / "Thêm một câu chuyện..." (BOF)
-   "[Hook angle]" (Growth)
-
+1. Opening congratulation/acknowledgment
 2. Before context (struggle)
-   - "Đã từng tự tập nhưng không kết quả"
-   - "Đã có coach trước → thất vọng"
-   - "Skinny fat / béo / mất tự tin"
-
 3. Pain point amplification
-   - Công việc bận (nail / IT / restaurant)
-   - Thông tin mâu thuẫn trên mạng
-   - On-off cycle
-
 4. Decision moment
-   - "Anh ấy đã quyết định nghiêm túc thay đổi"
-   - "Anh ấy nhắn tin cho mình..."
-
-5. Solution applied (Vinny's expertise from Coaching Philosophy)
-   - Custom plan based on lifestyle
-   - Specific accommodations (nail tech schedule, dad family time)
-   - Flexible diet, không cắt tinh bột
-
+5. Solution applied (Vinny's expertise)
 6. Result + transformation (specific numbers)
-   - "[X]lbs giảm trong [Y] tháng"
-   - "6-pack rõ trong [N] tuần"
-   - Plus quality outcomes: tự tin, năng lượng
-
 7. Soft CTA / Universal lesson
-   - "Câu chuyện của [Name] là minh chứng rõ ràng..."
-   - "Comment '🔥' nếu bạn..."
-   - "Hãy nhớ rằng, một quyết định nghiêm túc có thể thay đổi tất cả"
 ```
 
-### Voice Signatures (use Vinny's actual phrases):
+### Voice Signatures:
 
-**Pronouns (NEVER violate):**
-- Self: "mình" (ALWAYS)
-- Audience: "bạn"
-- Clients: "anh [Letter]" or "bạn ấy"
+**Pronouns (NEVER violate):** "mình" (self), "bạn" (audience), "anh [Letter]" (clients)
 
-**Vinny's actual phrases (recurring across 8 IG posts):**
+**Vinny's signature phrases:**
 - "Hành trình của [Name] không hề dễ dàng"
 - "Vòng lặp on-off liên tục: tập rồi bỏ, bỏ rồi lại bắt đầu"
 - "Quyết định nghiêm túc thay đổi"
@@ -397,26 +254,20 @@ Pull Vinny's actual writing voice from Story Bank "Vinny's Writing Voice Pattern
 - "Một thân hình săn chắc"
 - "Cân bằng hoàn hảo với công việc"
 - "Linh hoạt trong việc ăn uống"
-- "Mất tự tin với body của bạn ấy"
 - "Sự thay đổi đáng kinh ngạc"
 - "Mình rất tự hào về [Name]"
-
-**Sign-off patterns:**
-- "Mình rất tự hào về [Name]"
-- "Comment '🔥' nếu bạn..."
-- "Hãy nhớ rằng, một quyết định nghiêm túc có thể thay đổi tất cả"
 
 ### Caption variants per platform:
 
 ```
 ## Caption IG (story-led, 8-10 hashtags, save+follow CTA)
-[Long-form Vinny voice 5-7 paragraphs, follow 7-step structure if BOF]
+[Long-form Vinny voice 5-7 paragraphs]
 
 ## Caption FB (longer hook, 4 hashtags, comment CTA)
-[Similar to IG but slightly more conversational opening]
+[Conversational opening + similar to IG]
 
 ## Caption TikTok (siêu ngắn, 5 hashtags, comment-bait)
-[3-5 lines max, hook + curiosity gap + comment-bait CTA]
+[3-5 lines max + hook + curiosity gap]
 
 ## Caption YouTube Shorts (description SEO, 1-2 hashtags)
 [2-3 sentences, story-led + Vinny credentials, SEO keywords]
@@ -424,15 +275,251 @@ Pull Vinny's actual writing voice from Story Bank "Vinny's Writing Voice Pattern
 
 ---
 
-## STEP 7 — SAVE TO NOTION (IF REQUESTED)
+## ⚠️ STEP 7 — SAVE TO NOTION CONTENT TRACKER (CRITICAL FIX v1.2.1)
 
-When user asks to save:
-- Update idea status: "Script Drafted" or "Scripting Approval"
-- Add script to Content Tracker
-- Reference original idea ID
-- Save all 4 captions to respective fields
-- Tag với Segment (A/B/Universal) for analytics
-- Tag với Story Bank reference (section/client used)
+### Database structure (REQUIRED knowledge):
+
+```yaml
+Database: Your Content Tracker
+Database ID: b5772d91-4b16-4910-bb95-277de6b2864f
+Data Source ID: 699acf12-1be1-4182-aef8-165b7fe705a0
+Default Template ID: 20c26d27-530b-411f-81d0-f827f939819e (Quick Content)
+```
+
+### MUST USE: Notion create-pages with EXACT structure
+
+**Use Notion MCP `notion-create-pages` tool with:**
+
+```javascript
+{
+  "parent": {
+    "data_source_id": "699acf12-1be1-4182-aef8-165b7fe705a0"
+  },
+  "pages": [
+    {
+      "template_id": "20c26d27-530b-411f-81d0-f827f939819e",
+      "properties": {
+        "Title": "[Script Title - e.g. 'Anh Đ -41lbs Transformation Reveal']",
+        "Status": "Scripting Approval",
+        "Phase ": "Scripting",
+        "Type": "Reels",
+        "Platform": "Tiktok/IG/FB",
+        "Bucket": "Planned MF",
+        "Day Type": "[Match Pillar - see mapping below]",
+        "Pillars": "[\"Pillar1\", \"Pillar2\"]",
+        "Area": "[\"Mission Training \", \"Social Media\"]",
+        "date:Target Post Date:start": "[YYYY-MM-DD]",
+        "date:Target Post Date:is_datetime": 0,
+        "Linked Idea": "[\"https://www.notion.so/[idea-bank-page-url]\"]",
+        "Idea Inspiration ": "[URL nếu có inspiration source]"
+      }
+    }
+  ]
+}
+```
+
+### Property mapping rules:
+
+#### Status (REQUIRED):
+- After script generated → `"Scripting Approval"` (Vinny review)
+- After Vinny approve → `"Ready to Record"` (manual update)
+
+#### Phase (REQUIRED):
+- After script generated → `"Scripting"`
+
+#### Type (REQUIRED):
+Based on format:
+- Talking head / B-roll / POV → `"Reels"`
+- Cinematic / Long form → `"Short Video"` or `"Long Video"`
+- Carousel / Read caption → `"Carousel"`
+
+#### Platform (REQUIRED):
+- Default → `"Tiktok/IG/FB"`
+- YouTube specific → `"Youtube"`
+- Coaching content → `"Mission Coaching"`
+
+#### Bucket (REQUIRED):
+- Pre-planned content → `"Planned MF"`
+- Reactive/trend → `"Reactive MF"`
+- Top of funnel viral → `"TOF"`
+
+#### Day Type — MAP from Pillar/Mode:
+
+| Mode/Theme | Day Type |
+|---|---|
+| Personal vulnerability story | `"Day 1 Honesty"` |
+| Behind-the-scenes / Show work | `"Day 2 Show Work"` |
+| Educational / Mechanism reveal | `"Day 3 Teach"` |
+| Fitness viral / Growth | `"Day 4a Fitness Viral"` |
+| TOF viral / Cross-niche | `"Day 4b TOF Viral"` |
+| Failure story / Lost period | `"Day 5 Failure"` |
+| Day-in-life / Real day | `"Day 6 Real Day"` |
+| Recap / Summary | `"Day 7 Recap"` |
+
+#### Pillars — Multi-select (MAP from research Pillar):
+
+| Research Pillar | Content Tracker Pillars |
+|---|---|
+| Mind / Story | `["Truyền cảm hứng", "Connection"]` |
+| Training | `["Kiến thức - Hướng dẫn"]` |
+| Nutrition | `["Dinh Duỡng"]` |
+| Culture | `["Connection", "Lifestyle"]` |
+| Lifestyle | `["Lifestyle"]` |
+| Client transformation | `["Social Proof", "Truyền cảm hứng"]` |
+
+Use multi_select format: `"[\"Pillar1\", \"Pillar2\"]"`
+
+#### Area — Multi-select:
+- Default for content → `["Mission Training ", "Social Media"]` (note: trailing space in "Mission Training ")
+- Coaching-specific → `["Mission Training "]`
+- Cross-business → `["Mission Training ", "Mission Garage", "Social Media"]`
+
+Use format: `"[\"Mission Training \", \"Social Media\"]"`
+
+#### Target Post Date:
+- Format: `"date:Target Post Date:start"` = `"YYYY-MM-DD"`
+- `"date:Target Post Date:is_datetime"` = `0` (date only, not datetime)
+
+#### Linked Idea (CRITICAL):
+- Always link to original Idea Bank page
+- Format: `"[\"https://www.notion.so/[idea-page-id]\"]"`
+- Get URL from Idea Bank pages created by vinny-research
+
+#### Idea Inspiration:
+- URL nếu inspired từ specific viral video / creator
+- Empty if original idea
+
+---
+
+### Page CONTENT (body):
+
+After creating page với template, ALSO add full script content:
+
+```markdown
+# [Script Title]
+
+## Linked Idea
+[Idea Bank link]
+
+## Story Bank Reference
+[Section/Client used]
+
+---
+
+## Angle 1 (RECOMMENDED): [Descriptor]
+
+**Approach:** ...
+**Format:** ...
+**Voice:** ...
+
+### Hook variations:
+1. ...
+2. ...
+3. ...
+
+### Full script (timestamped):
+
+**[0-3s]** Hook
+**[3-8s]** Setup
+**[8-15s]** Mechanism
+**[15-25s]** Solution
+**[25-30s]** Close
+
+### Production notes:
+- ...
+
+### Captions:
+
+**IG:**
+[Caption text]
+
+**FB:**
+[Caption text]
+
+**TikTok:**
+[Caption text]
+
+**YouTube Shorts:**
+[Caption text]
+
+---
+
+## Angle 2: [Descriptor]
+[Same structure]
+
+---
+
+## Angle 3: [Descriptor]
+[Same structure]
+
+---
+
+## Recommendation
+
+[Best angle + rationale]
+```
+
+---
+
+### EXAMPLE — Correct save call:
+
+```javascript
+notion-create-pages({
+  parent: {
+    data_source_id: "699acf12-1be1-4182-aef8-165b7fe705a0"
+  },
+  pages: [{
+    template_id: "20c26d27-530b-411f-81d0-f827f939819e",
+    properties: {
+      "Title": "Anh Đ -41lbs Transformation Story (BOF)",
+      "Status": "Scripting Approval",
+      "Phase ": "Scripting",
+      "Type": "Reels",
+      "Platform": "Tiktok/IG/FB",
+      "Bucket": "Planned MF",
+      "Day Type": "Day 4a Fitness Viral",
+      "Pillars": "[\"Social Proof\", \"Truyền cảm hứng\"]",
+      "Area": "[\"Mission Training \", \"Social Media\"]",
+      "date:Target Post Date:start": "2026-05-12",
+      "date:Target Post Date:is_datetime": 0,
+      "Linked Idea": "[\"https://www.notion.so/355466d8c3ad8156414aeeeb3083d7\"]"
+    }
+  }]
+})
+```
+
+---
+
+### Multiple scripts batch save:
+
+When generating scripts cho 3+ ideas, save all in single batch call:
+
+```javascript
+notion-create-pages({
+  parent: { data_source_id: "699acf12-1be1-4182-aef8-165b7fe705a0" },
+  pages: [
+    { template_id: "20c26d27-530b-411f-81d0-f827f939819e", properties: { /* idea 1 */ } },
+    { template_id: "20c26d27-530b-411f-81d0-f827f939819e", properties: { /* idea 2 */ } },
+    { template_id: "20c26d27-530b-411f-81d0-f827f939819e", properties: { /* idea 3 */ } }
+  ]
+})
+```
+
+---
+
+### Verification after save:
+
+After save, output to user:
+
+```
+✅ Saved [N] scripts vào Content Tracker DB:
+- [Script 1 Title] | Status: Scripting Approval | Day Type: [X] | Pillars: [Y] | Notion URL
+- [Script 2 Title] | ...
+- [Script 3 Title] | ...
+
+All linked to Idea Bank parent ideas.
+Status ready for Vinny review → "Ready to Record" approval.
+```
 
 ---
 
@@ -441,78 +528,49 @@ When user asks to save:
 ### Voice & tone
 - ✅ Mình/bạn (always)
 - ✅ "Người anh đi trước" framing
-- ✅ Code-switching English OK if natural ("Flexible Diet", "DM coaching", "app guidance")
-- ❌ Tao/mày (anywhere, ever)
+- ✅ Code-switching English OK if natural
+- ❌ Tao/mày anywhere
 - ❌ "Chuyên gia" / "expert" tone
-- ❌ Generic "anh em ơi"
 
 ### Audience targeting
 - ✅ Specific: "anh em làm nail / IT đêm / restaurant / 2 jobs / có vợ con"
 - ❌ "Việt kiều" anywhere
 - ❌ Vague "mọi người"
 
-### Authority anchoring (when relevant)
-- ✅ "7 năm coaching", "100+ anh em đã transform", "Master Trainer LA Fitness"
-- ✅ Specific Client Transformation Bank evidence
-- ✅ Story Bank ⭐ marked moments
-- ❌ Vague "anh từng thấy", "có người nói"
-
 ### Stories — CRITICAL anti-hallucination
-- ✅ Stories from Story Bank ONLY (verified true facts)
+- ✅ Stories from Story Bank ONLY
 - ✅ Third-person about coaching clients from Client Transformations Bank
-- ✅ Third-person family/cultural observations
 - ❌ NEVER bịa stories về Vinny having kids/wife
 - ❌ NEVER timeline math impossible (Vinny born ~1996, arrived US 2013)
-- ❌ NEVER "con trai mình" / "vợ mình"
-- ✅ When idea targets family audience: REFRAME to third-person client story from Bank
+- ✅ When idea targets family audience: REFRAME to third-person client story
 
 ### Hook structure
-- Hook giây 0-3 PHẢI có ≥ 3/4 components:
-  1. Visual cue cụ thể
-  2. Verbal hook < 12 chữ
-  3. Text on screen
-  4. Sound/music vibe
+- Hook giây 0-3 PHẢI có ≥ 3/4 components: Visual cue, Verbal hook < 12 chữ, Text on screen, Sound vibe
 
 ### CTA strategy by mode
-- **Growth mode:** NO "DM coaching". Soft CTA = "save", "share with anh em", "comment 🔥"
-- **MOF mode:** Connection-building CTA ("comment 1 chữ nếu thấy mình ở đây")
-- **BOF mode:** Soft "DM 'COACHING'" or "link in bio" — natural, not pushy
-- **Hybrid:** Default value-first, soft conversion at very end
+- **Growth:** NO "DM coaching". Soft CTA = "save", "share", "comment 🔥"
+- **MOF:** Connection-building CTA
+- **BOF:** Soft "DM 'COACHING'" — natural, not pushy
+- **Hybrid:** Value-first, soft conversion at end
 
-### Coaching philosophy alignment (Story Bank §11)
-Vinny's 5 pillars to reinforce in BOF/MOF content:
-
-1. **Lifestyle-first approach** — Plan phù hợp công việc client
-2. **Flexible Diet methodology** — Vẫn ăn cơm, vẫn ăn ngoài cùng gia đình
-3. **Sustainable over fast** — Knowledge building để client tự sắp xếp
-4. **Structured + Specific** — App coaching, lịch tập khoa học
-5. **Trust earned through honesty** — Acknowledge struggles, không oversell
-
-### Content boundaries
-- ❌ Politics
-- ❌ Religion
-- ❌ Finance flex
-- ❌ Women stereotypes / anti-rhetoric
-- ❌ Health misinformation
-- ❌ Personal attacks on creators
-- ❌ Quick fix promises
-- ❌ "Cắt tinh bột" / extreme dieting promotion (against Vinny philosophy)
+### Coaching philosophy alignment (5 pillars)
+1. Lifestyle-first approach
+2. Flexible Diet methodology
+3. Sustainable over fast
+4. Structured + Specific
+5. Trust earned through honesty
 
 ---
 
 ## ANTI-PATTERNS — Đừng generate scripts:
 
 - ❌ All 3 angles the same approach
-- ❌ Rhetorical questions opener (overused)
 - ❌ Generic motivation
-- ❌ Round numbers not believable
 - ❌ Hooks không có pattern interrupt
-- ❌ Solutions không có mechanism
-- ❌ CTA "DM COACHING" trong growth-mode scripts
 - ❌ Scripts cụt — phải đủ structure
 - ❌ **CRITICAL: Stories that require Vinny to bịa about family/kids/wife**
-- ❌ **CRITICAL: Timeline impossible for 29-year-old**
 - ❌ **CRITICAL: Personal stories không có trong Story Bank**
+- ❌ **CRITICAL v1.2.1: Save scripts as standalone pages instead of Content Tracker DB entries**
 - ❌ Generic "transformation story" without specific Client Bank reference
 - ❌ All talking head batch — vary formats
 
@@ -522,65 +580,26 @@ Vinny's 5 pillars to reinforce in BOF/MOF content:
 
 If idea targets family/dad audience but Vinny không có family:
 
-**WRONG approach (bịa):**
-"Con trai mình hỏi: 'Sao bụng ba mềm?'"
+**WRONG:** "Con trai mình hỏi: 'Sao bụng ba mềm?'"
 → Vinny không có con. HALLUCINATION.
 
-**RIGHT approach Option 1 — Third-person client (Client Bank):**
-"Có anh em mình coach kể: con trai 6 tuổi vỗ bụng anh hỏi 'Sao bụng ba mềm?'"
-→ Vinny là witness/coach, không phải protagonist. AUTHENTIC.
+**RIGHT Option 1 — Third-person client:**
+"Có anh em mình coach kể: con trai 6 tuổi vỗ bụng anh hỏi..."
 
-**RIGHT approach Option 2 — First-person observation:**
-"Tuần rồi mình ngồi tâm sự với 1 client làm IT đêm. Anh kể chuyện con trai..."
-→ Vinny present trong story as coach, không phải dad. AUTHENTIC.
+**RIGHT Option 2 — First-person observation:**
+"Tuần rồi mình ngồi tâm sự với 1 client làm IT đêm..."
 
-**RIGHT approach Option 3 — Vinny's own family context (third-person):**
+**RIGHT Option 3 — Vinny's family observation (third-person):**
 "Mình nhớ ba mình hồi 50 tuổi, bụng bia 30 năm..."
-→ Vinny observation về ba (third-person), authentic.
-
----
-
-## EXAMPLE WORKFLOW (for reference)
-
-**User input:** "Generate scripts cho idea: Why anh em IT đêm tăng cân nhanh"
-
-**Skill execution:**
-
-1. **Pull Story Bank** → Find:
-   - Client Bank Anh T (DIY failed → Flexible Diet) - relevant struggle
-   - Client Bank Anh H (restaurant style, irregular eating) - relevant pattern
-   - Story Bank §7 (2019 lost period clubbing → eating bad) - relevant authority
-
-2. **Detect mode + segment:**
-   - Mode: MOF (vulnerability/empathy) + BOF (mechanism + soft CTA)
-   - Segment: B (clients) primarily, with hint of Universal (mechanism)
-
-3. **Generate 3 angles:**
-   - Angle 1: "Story-led empathy" - Open with Anh T case (Client Bank), 
-     mechanism reveal (Flexible Diet), soft CTA
-   - Angle 2: "Mechanism mythbust" - Universal explainer, why "skip meals 
-     then big dinner" fails biologically, soft community CTA
-   - Angle 3: "Read caption depth" - Visual hook ("IT đêm 2 AM ăn ramen"), 
-     full caption explains mechanism + reference Anh T case
-
-4. **Recommend Angle 1** for highest empathy + conversion potential
-
-5. **Generate captions** following 7-step Vinny structure with signature phrases
-
-6. **Save Notion** with Story Bank reference logged
 
 ---
 
 ## EVOLUTION — Update skill mỗi quý
 
 Q1 review (Tuần 12):
-- Patterns winning từ Analytics DB → strengthen "Why this works" reasoning
-- Anti-patterns mới (failed scripts) → add vào ANTI-PATTERNS
-- New creative angles discovered → add vào STEP 4 levers
-- Hook variations winning → add to creative principles
+- Patterns winning từ Analytics DB → strengthen reasoning
+- Anti-patterns mới → add
+- New creative angles discovered → add to STEP 4 levers
 - Story Bank new chapters → integrate
 - Client Transformations Bank new entries → expand
-- Reference Library Vinny's top performers → bias toward proven patterns
-- Format performance data → recalibrate format suggestions
-- Voice signature evolution → update verbatim phrases bank
-- Bump version: v1.2 → v1.3 → v2.0
+- Bump version: v1.2.1 → v1.3 → v2.0
