@@ -28,3 +28,6 @@ Temporary Items
 .env
 .env.local
 *.log
+
+# Backup files
+*.backup.*
