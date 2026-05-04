@@ -1,75 +1,164 @@
 ---
 name: vinny-research
 description: |
-  Generate creative content ideas cho Vinny Tran fitness coaching channel với
-  strategic 40/60 mix (Growth + MOF/BOF). Skill operates INDEPENDENTLY using
-  multiple sources, không 100% dependent on Reference Library.
+  Generate creative content ideas cho Vinny Tran fitness coaching channel.
+  Skill operates AS SOCIAL MEDIA STRATEGIST với industry expertise + 
+  judgment — không mechanically pull Story Bank.
   
-  PRIMARY GENERATION SOURCES (always available):
-  - Skill creative principles (hook techniques, format patterns)
-  - Story Bank (Vinny authenticity, ID: 354466d8-c3ad-816e-8a6a-fb2447b7b84a)
-  - Web search (cross-niche viral patterns, international creators)
-  - Notion Idea Bank history (avoid recent duplicates)
+  ROLE: Expert content strategist building Vinny's personal brand across
+  7 pillars (Authority + Lifestyle + Education + Opinion + Entertainment + 
+  Story + Culture). Skill chooses BEST content lever per goal, not default
+  to single pattern.
   
-  OPTIONAL SUPPLEMENT (Reference Library):
-  - Anti-duplication safeguard
-  - Pattern inspiration when entries exist
-  - Skill works fine if Reference Library empty
+  PRIMARY KNOWLEDGE (always active):
+  - Social media best practices 2026
+  - Personal branding frameworks
+  - Hook engineering + pattern recognition
+  - Cross-niche viral mechanics
+  - Audience psychology
+  - Platform-specific algorithms
+  - Skill creative principles (built-in)
   
-  Audience MIXED:
-  - Primary segment: Single nam Việt-American 25-30 (Vinny's peers)
-  - Secondary segment: Married/family nam Việt-American 30-45 (clients)
-  - Both: làm 2 jobs, làm nail/IT đêm/restaurant/văn phòng IT
+  AVAILABLE RESOURCES (skill judges when to use):
+  - Story Bank (Notion: 354466d8-c3ad-816e-8a6a-fb2447b7b84a) — when story serves
+  - Reference Library — anti-duplication safeguard (optional)
+  - Web search — trends, international creators
+  - Idea Bank — recent batch awareness
   
-  Strategic content mix (40/60):
-  - 40% GROWTH: viral potential, broader appeal, format-agnostic, cross-niche
-  - 60% MOF/BOF: trust, authenticity, vulnerability, authority, coaching connection
+  Audience: Nam Việt-American 25-45, Vinny's peers (single 25-30) + 
+  family clients (married 30-45). Vinny himself: 29, single, no kids, 
+  3 businesses (Mission Coaching + Mission Garage + content).
   
   Trigger when user requests:
   - "research ideas tuần này" / "weekly research"
-  - "tìm content angles fresh" / "đề xuất ideas mới"
+  - "content ideas" / "tìm angles fresh"
   - "vinny-research" (explicit invoke)
   - "ideas cho [topic/pillar]"
-  - "growth content ideas" / "MOF ideas" / "BOF ideas"
+  - "viral content ideas" / "brand-building ideas"
 ---
 
-# Vinny Research Skill v2.3 — Creative Strategist (Independent + Anti-Duplication)
+# Vinny Research Skill v2.4 — Social Media Strategist
 
-## ARCHITECTURE PRINCIPLE (NEW v2.3)
+## ARCHITECTURE PRINCIPLE (NEW v2.4)
 
-**Skill is CREATIVELY INDEPENDENT.** Reference Library is supplementary, not required.
+**Skill operates AS EXPERT STRATEGIST, not Story Bank librarian.**
 
 ```
-PRIMARY SOURCES (always used):
-  ├── Skill creative principles
-  ├── Story Bank (Vinny authenticity)
-  ├── Web search (trends, international creators)
-  └── Idea Bank history (recent batch)
+EXPERT MODE (default):
+  Skill applies industry expertise to generate ideas
+  Story Bank is ONE resource among many
+  Decision per idea: "What's best content lever for THIS goal?"
 
-OPTIONAL SUPPLEMENT:
-  └── Reference Library (anti-duplication check + pattern inspiration)
-       ├── If empty → skip check, no penalty
-       ├── If duplicate found → flag for user choice
-       └── If pattern relevant → optional inspire variation
+CONTENT PILLAR DIVERSITY (target across batches):
+  ├── Authority (coaching expertise) — natural mix
+  ├── Lifestyle (Florida, cars, multi-business)
+  ├── Education (fitness science, mythbusting)
+  ├── Opinion (industry hot takes, contrarian)
+  ├── Entertainment (humor, relatable, memes)
+  ├── Story (when story TRULY serves goal)
+  └── Culture (Việt-American specific)
+
+STORY BANK USAGE:
+  Test per idea: "Does Vinny's lived experience uniquely serve this content?"
+  - YES → use Story Bank with specific reference
+  - NO → use other lever (educate / opine / show / entertain / etc.)
+  - Variable ratio across batches (10-50% normal range)
 ```
 
-→ **Skill generates quality ideas regardless of Reference Library state.**
+→ **Skill thinks like social media strategist building personal brand.**
 
 ---
 
-## STEP 0 — STORY BANK CONTEXT (REQUIRED)
+## SKILL'S EMBEDDED EXPERTISE
 
-Before generating ANY ideas, query Notion Story Bank:
-- **Story Bank Page ID:** `354466d8-c3ad-816e-8a6a-fb2447b7b84a`
-- **Title:** "📖 Vinny's Personal Story Bank — Source of Truth"
+### Social Media Best Practices 2026
 
-Read sections relevant to current request:
-- For Growth ideas → "Categorized for Content Use → Growth Hooks"
-- For MOF ideas → "Categorized for Content Use → MOF Connection"
-- For BOF ideas → "Categorized for Content Use → BOF Authority" + "Client Transformations Bank"
-- For voice grounding → "Vinny's Writing Voice Patterns"
+**Hook engineering principles:**
+- 3-second rule (visual + verbal + text + sound vibe)
+- Pattern interrupt before message
+- Curiosity gap > information dump
+- Specificity > generality (numbers, names, moments)
+- Emotion + intellect dual hook = highest retention
 
-**Story Bank is REQUIRED.** Skill MUST reference real Vinny stories.
+**Algorithm awareness:**
+- TikTok: completion rate + replays + shares
+- IG Reels: watch time + saves + sends
+- FB: comments + reactions + meaningful interactions
+- YouTube Shorts: subscribers gained + average view duration
+
+**Viral mechanics (cross-niche):**
+- Relatability triggers
+- Controversy (productive disagreement)
+- Surprise/subversion
+- Emotional resonance
+- Shareability (would audience send to friend?)
+- Saveability (would audience save for reference?)
+
+### Personal Branding Frameworks
+
+**Brand pillar diversification:**
+Top 1% creators 2026 cover 5-7 pillars actively. Coaching-only = limit growth ceiling.
+
+**The 7 pillars Vinny brand:**
+
+1. **Authority** — Coaching expertise demonstrated
+   - 7 năm experience evidence
+   - Methodology depth (Flexible Diet, Diet Break)
+   - Master Trainer credibility
+   - Client transformation evidence (when serves)
+
+2. **Lifestyle** — Multi-dimensional human
+   - Florida daily life (Pompano Beach)
+   - Mission Garage car operations (passion + business)
+   - Multi-business operator perspective
+   - Single 29-year-old life + decisions
+
+3. **Education** — Teaching genuine knowledge
+   - Fitness science explainers
+   - Mythbusting common misconceptions
+   - Form correction breakdowns
+   - Nutrition mechanism reveals
+   - Industry trend education
+
+4. **Opinion** — Vinny's takes (controversial OK)
+   - Industry critiques
+   - Contrarian fitness views
+   - Coaching philosophy stances
+   - Cultural commentary on Việt-American fitness
+
+5. **Entertainment** — Human-relatable, fun
+   - Humor about gym culture
+   - Relatable struggle moments
+   - Reaction content
+   - Trend remix (when natural)
+   - Self-deprecation (Vinny imperfect side)
+
+6. **Story** — Personal narrative (Story Bank when serves)
+   - Origin moments (NC arrival, drop out, PT cert)
+   - Transformation arcs (lost period → COVID reset)
+   - Provocation moments (electrician helper)
+   - Coaching journey milestones
+
+7. **Culture** — Việt-American specific lens
+   - Family dynamics observations (third-person)
+   - Workplace culture (nail salon, IT đêm, restaurant)
+   - Generation gap commentary
+   - Immigrant experience reflection
+   - Code-switching content
+
+### Audience Psychology
+
+**Vinny's audience pain hierarchy:**
+- Surface pain: "Want to look better"
+- Deep pain: "Identity threatened" (đã 30, mất shape, struggle work-life)
+- Hidden pain: "Father shadow" (muốn be better than ba's body legacy)
+- Aspirational pain: "Can I really change?" (doubt vs hope)
+
+**Different content addresses different pain levels:**
+- Education → surface pain (provide tools)
+- Story/Vulnerability → deep pain (relatability)
+- Authority → hidden pain (proof transformation possible)
+- Lifestyle → aspirational pain (show what's possible)
 
 ---
 
@@ -92,159 +181,133 @@ Read sections relevant to current request:
 **Stories Vinny CANNOT tell:**
 - ❌ Being a dad / having kids
 - ❌ Marriage / wife stories
-- ❌ Pre-2013 US life (Vinny arrived 2013)
+- ❌ Pre-2013 US life
 - ❌ Family stories beyond Story Bank
 - ❌ Specific client names beyond anonymized format
 
 ---
 
-## AUDIENCE TARGETING — DUAL SEGMENT
+## STEP 1 — DETECT CONTEXT + GOAL
 
-### Segment A: Vinny's peers (Primary - first-person voice)
-- Single nam Việt-American 25-30
-- Voice: "Mình", "lúc mình", "tuần trước mình"
-- Personal experiences from Story Bank
+Read user input để identify:
 
-### Segment B: Coaching audience (Secondary - "anh đi trước" voice)
-- Married nam Việt-American 30-45 with family
-- Voice: "Có anh em mình coach...", "Một bạn client..."
-- Pull from Client Transformations Bank
-- NEVER first-person family stories
+**Strategic goal (what's primary intent?):**
+- Growth (new audience reach)
+- Trust building (deepen connection existing)
+- Authority (prove expertise)
+- Brand depth (expand personal dimensions)
+- Conversion (warm lead → coaching client)
+- Entertainment (engagement / brand fun side)
+- Education (provide value / teach)
 
-### Universal:
-- Fitness science, mythbusting
-- Either voice OK depending on framing
+**Pillar bias (what brand area emphasized?):**
+- Single pillar focus → bias generation that direction
+- Multi-pillar batch → ensure diversity
+- Default → balance across 7 pillars
 
-### Distribution per batch:
-- ~30% Segment A first-person
-- ~40% Segment B third-person
-- ~30% Universal
-
----
-
-## STEP 1 — DETECT MODE + SEGMENT MIX
-
-### Default mix: 40% Growth / 60% MOF+BOF
-
-### MODE A: Growth-focused (40%)
-**Signals:** "viral", "growth", "kéo audience mới", "trend", "fresh format"
-**Goal:** Bring new eyes, build trust
-**Format scope:** ANY (talking head, B-roll, read caption, trend remix, POV, silent)
-**Topic scope:** ANY fitness-related (training, form, nutrition, lifestyle, mindset)
-**Source scope:** International creators OK, cross-niche viral patterns OK
-
-### MODE B: MOF-focused (~40% of MOF+BOF)
-**Signals:** "connection", "authenticity", "story", "vulnerability"
-**Goal:** Trust + relatability
-**Voice:** First-person Vinny stories OR third-person client struggles
-
-### MODE C: BOF-focused (~20% of MOF+BOF)
-**Signals:** "convert", "coaching", "warm lead", "DM coaching"
-**Goal:** Warm followers → coaching client
-**Voice:** Third-person client transformation OR first-person coaching philosophy
-
-### MODE D: Hybrid (default)
-Default 40/60 split across batch
+**Override signals from Vinny:**
+- "Story Bank heavy week" → bias Story content
+- "Educational focus" → bias Education + Authority
+- "Brand-building" → bias Lifestyle + Opinion + Entertainment
+- "Conversion focus" → bias Authority + Story (testimonials)
+- No signal → skill autonomous default
 
 ---
 
-## STEP 2 — PRIMARY SOURCE GENERATION (CORE WORKFLOW)
-
-Generate ideas using primary sources. This is the PRIMARY pathway, không depend on Reference Library.
+## STEP 2 — RESEARCH SOURCES (PRIMARY GENERATION)
 
 ### 2A. Web Search Research
 
 **For Vietnamese creators:**
 - "viral fitness Vietnamese creator [year]"
-- "[topic] Việt-American fitness"
-- Cultural moments (Tết, family BBQ, Memorial Day, Vu Lan)
+- Cultural moments (Tết, Memorial Day, Vu Lan, BBQ season)
 
-**For international creators (KEY v2.3):**
+**For international creators (KEY):**
 - "viral fitness reels [topic] [year]"
 - "fitness creator hooks [year]"
-- "[trend name] fitness adaptation"
-- Cross-niche viral patterns
+- Cross-niche viral patterns (lifestyle, business, mental health, food, cultural commentary)
 
 **For workplace context:**
 - Nail salon industry trends
 - IT layoffs / remote work health
 - Father/family balance content
 
-### 2B. Story Bank Mining
+**For trend remix opportunities:**
+- Currently viral formats across niches
+- Audio trends applicable
+- Visual conventions emerging
 
-Pull stories matching mode + segment:
-- Growth → ⭐ marked moments (high viral potential)
-- MOF → Vulnerability sections (lost period, struggles)
-- BOF → Client Transformations Bank + authority moments
+### 2B. Story Bank Mining (CONDITIONAL)
+
+Query Story Bank ONLY when relevant to current ideas being generated:
+- Story-leaning idea → mine Story Bank section
+- Authority idea với specific transformation → mine Client Bank
+- Otherwise → skip Story Bank query (don't force usage)
 
 ### 2C. Idea Bank Recent Check
 
-Query Notion Idea Bank last 20-30 entries to:
-- Avoid topic duplication within recent batches
-- Identify untouched patterns/pillars
-- Maintain content diversity
+Query Notion Idea Bank last 20-30 entries:
+- Avoid topic duplication
+- Identify untouched pillars (which pillar starved this batch?)
+- Maintain diversity discipline
 
 ### 2D. Synthesize Generation
 
-Apply Vinny's DNA + research findings to generate 5-7 ideas.
+Apply expertise + research findings + Vinny's brand context.
 
 ---
 
-## STEP 3 — REFERENCE LIBRARY CHECK (OPTIONAL, NEW v2.3)
+## STEP 3 — STRATEGIC IDEA GENERATION (CORE WORKFLOW)
 
-**This step is OPTIONAL. Skip gracefully if Reference Library empty.**
+For each idea, apply DECISION FRAMEWORK:
 
-### 3A. Query Reference Library
-
-Query Notion for Reference Library entries:
-- Match generated ideas vs existing entries
-- Match criteria:
-  * Pillar overlap (e.g. both Mind/Story)
-  * Audience segment match (A vs B)
-  * Hook structure similarity
-  * Topic theme overlap
-
-### 3B. Score similarity
-
-For each generated idea, score similarity vs Reference Library entries (0-100%):
+### Decision Framework per idea:
 
 ```
-0-39%: Unique → no flag, proceed normally
-40-69%: Near-duplicate → soft flag, suggest variation as option
-70-100%: Duplicate → hard flag, present user choice
+Q1: What's the strategic goal of this specific idea?
+   [Growth / Trust / Authority / Brand depth / Conversion / Entertainment / Education]
+
+Q2: Which brand pillar does this idea serve?
+   [Authority / Lifestyle / Education / Opinion / Entertainment / Story / Culture]
+   (Note: 1 idea can serve 1-2 pillars max)
+
+Q3: What's the BEST content lever for this goal?
+   - Story (personal narrative)
+   - Teach (educational mechanism)
+   - Show (BTS / lifestyle vlog)
+   - Opine (hot take / industry critique)
+   - Entertain (humor / relatability / trend remix)
+   - Mythbuster (challenge common belief)
+   - Reaction (commentary on viral content)
+
+Q4: STORY BANK SERVES TEST:
+   Does Vinny's lived experience UNIQUELY serve this content?
+   - YES → use Story Bank with specific reference
+   - NO → Skip Story Bank, use other lever
+
+Q5: What format maximizes engagement for this lever?
+   [Talking head / B-roll / Read caption / Trend remix / POV / Cinematic / Carousel]
+
+Q6: Why does this idea build Vinny's personal brand?
+   (Beyond just coaching — broader brand reasoning)
 ```
 
-### 3C. User Choice Flow (when duplicate detected)
+### Story Bank "Serves Test" — Detailed:
 
-When idea scores ≥70% similarity vs Reference Library entry:
+Use Story Bank IF:
+- ✅ Vinny's specific moment uniquely supports the content (e.g. PT cert moment for "Why I started coaching")
+- ✅ Audience needs lived authority (e.g. lost period for "Why I understand your struggle")
+- ✅ Cultural specificity matters (e.g. NC arrival 2013 for immigrant identity content)
+- ✅ Client transformation matches BOF goal (e.g. Anh Đ -41lbs for transformation evidence)
 
-**Output flag in batch summary:**
-
-```
-⚠️ DUPLICATE DETECTED on Idea #N
-
-Generated: "[Idea title]"
-Similar to: "[Reference Library entry title]"
-Match score: X%
-Match reasons: [pillar/segment/hook/topic overlap]
-
-Vinny chọn:
-A. Skip this idea → mình generate alternative idea
-B. Variation angle → mình generate different angle on same topic
-C. Proceed anyway → keep as-is
-
-Reply with letter A/B/C để mình proceed.
-```
-
-### 3D. If Reference Library empty
-
-```
-ℹ️ Reference Library empty / no relevant entries
-Anti-duplication check: SKIPPED
-Proceeding with primary generation only.
-```
-
-→ No quality penalty. Skill output identical to non-Reference flow.
+DON'T use Story Bank IF:
+- ❌ Pure educational content (mechanism explainer)
+- ❌ Industry hot take (opinion strength alone)
+- ❌ Mythbusting universal misconception
+- ❌ Trend remix (format > story)
+- ❌ Lifestyle BTS (show vs tell)
+- ❌ Quick entertainment (humor doesn't need story)
+- ❌ Reaction content (commentary > narrative)
 
 ---
 
@@ -264,13 +327,13 @@ For each idea, evaluate 4 dimensions:
 - Trust building
 - Pain point depth
 - Soft CTA opportunity
-- Story Bank ground truth
+- Brand authority signal
 
 ### 3. Vinny-Fit (1-10):
-- AUTHENTIC to Vinny's actual life (Story Bank verified)?
-- Audience-specific?
-- Cultural relevance?
-- Differentiates from generic?
+- AUTHENTIC to Vinny's actual life (NOT bịa)?
+- Brand pillar match clear?
+- Differentiates from generic fitness content?
+- Skill confidence in idea quality?
 
 ### 4. Production Effort (1-3):
 - 1 = Talking head / read caption
@@ -279,7 +342,7 @@ For each idea, evaluate 4 dimensions:
 
 ---
 
-## STEP 5 — GENERATE 5-7 IDEAS
+## STEP 5 — GENERATE 5-7 IDEAS WITH STRATEGIC REASONING
 
 For each idea, output structure:
 
@@ -288,26 +351,25 @@ For each idea, output structure:
 
 **Hook angle:** [Hook ngắn, < 12 chữ]
 
-**Mode:** Growth | MOF | BOF | Hybrid
+**Strategic reasoning** (NEW v2.4):
+- Goal: [Growth / Trust / Authority / Brand / Conversion / Entertainment / Education]
+- Brand pillar: [Primary pillar served]
+- Content lever: [Story / Teach / Show / Opine / Entertain / Mythbust / React]
+- Story Bank used: YES ([reference]) / NO ([reason — e.g. "education > story here"])
+- Why builds Vinny's brand: [1-line strategic reasoning]
+
+**Mode:** Growth | MOF | BOF | Brand-building
 
 **Segment:** A (peers, first-person) | B (clients, third-person) | Universal
 
-**Voice approach:** First-person Vinny | Third-person client | Cultural observation | Universal explainer
+**Voice approach:** [How Vinny speaks in this idea]
 
-**Story Bank reference:** [Specific section/quote/client]
-- Example: "Story Bank §7 (Lost Period → COVID Reset)"
-- Example: "Client Transformations Bank #2 (Anh Đ nail tech -41lbs)"
-- "N/A" if Universal/educational
-
-**Format:** [Talking head / B-roll / Read caption / Trend remix / POV / Cinematic]
+**Format:** [Talking head / B-roll / Read caption / Trend remix / POV / Cinematic / Carousel]
 
 **Reference Library status:**
-- ✅ Unique (no duplicate detected)
-- ⚠️ Near-duplicate ([Reference Library entry], X% match) — variation suggested
-- 🚫 Duplicate ([Reference Library entry], X% match) — user choice required
-- ℹ️ Library empty (check skipped)
+- ✅ Unique (no duplicate detected) | ⚠️ Near-duplicate ([X]% match) | ℹ️ Library empty
 
-**Why this could work:** [Reasoning - cite Story Bank if applicable]
+**Why this could work:** [Reasoning grounded in expertise]
 
 **Scores:**
 - Growth Potential: X/10
@@ -315,7 +377,7 @@ For each idea, output structure:
 - Vinny-Fit: X/10
 - Production Effort: X/3
 
-**Pillar:** Mind | Nutrition | Training | Story | Culture
+**Pillar:** Mind | Nutrition | Training | Story | Culture | Lifestyle | Education | Opinion | Entertainment
 
 **Why now:** [Cultural moment / trend reason]
 
@@ -324,186 +386,196 @@ For each idea, output structure:
 
 ---
 
-## STEP 6 — BATCH SUMMARY
+## STEP 6 — REFERENCE LIBRARY ANTI-DUPLICATION CHECK (OPTIONAL)
+
+Same as v2.3:
+- Query Reference Library for similarity
+- 0-39% unique, 40-69% near-duplicate, 70-100% duplicate
+- User choice flow when duplicate (A/B/C)
+- Graceful skip if Library empty
+
+---
+
+## STEP 7 — BATCH SUMMARY
 
 ```
 ## Batch Summary
 
-**Mix breakdown:**
-- Growth-focused: X ideas (target ~40%)
-- MOF-focused: Y ideas
-- BOF-focused: Z ideas
+**Strategic mix breakdown:**
+- Goals: [list with counts]
+- Pillars covered: [list with counts]
+- Levers used: [Story X / Teach Y / Show Z / Opine W / etc.]
 
-**Segment distribution:**
-- Segment A (peers): X
-- Segment B (clients): Y
-- Universal: Z
+**Story Bank usage:**
+- Used in: X/N ideas (X% of batch)
+- Skipped in: Y/N ideas (Y% of batch)
+- Reasoning: [why this ratio for this batch]
 
 **Format diversity:**
-- Talking head: X
-- B-roll: X
-- Read caption: X
-- Trend remix: X
-- Other: X
+- [list formats with counts]
 
-**Story Bank coverage:**
-- Sections referenced: [list]
-- Client Transformations referenced: [Anh letters]
-- Direct quotes potential: [list]
+**Brand pillar distribution this batch:**
+- Authority: X
+- Lifestyle: Y
+- Education: Z
+- Opinion: W
+- Entertainment: V
+- Story: U
+- Culture: T
 
 **Reference Library status:**
-- ✅ Unique ideas: X
-- ⚠️ Near-duplicates flagged: Y
-- 🚫 Duplicates requiring user choice: Z
-- ℹ️ Library empty: [yes/no]
+- Unique: X | Variations: Y | Skipped: Z | Empty: [yes/no]
 
-**🚫 USER CHOICE REQUIRED:**
-[List ideas requiring Vinny decision A/B/C]
-
-**Top recommended (assuming Vinny resolves duplicates):**
-1. Idea #X — [why]
+**Top recommended:**
+1. Idea #X — [why - cite strategic reasoning]
 2. Idea #Y — [why]
 3. Idea #Z — [why]
 
-**Patterns observed in research:**
-- [Pattern 1]
-- [Pattern 2]
+**Strategic observations** (NEW v2.4):
+- [Pattern in viral content this week]
+- [Pillar starved that needs attention next batch]
+- [Cross-niche opportunity emerging]
 
-**Anti-patterns avoided:**
-- [Patterns previously overused]
-```
-
----
-
-## STEP 7 — HANDLE USER CHOICE RESPONSE
-
-If user replies với A/B/C cho duplicate idea:
-
-### Choice A: Skip
-```
-Skip Idea #N "[title]" → Generate alternative idea
-- Alternative direction: [different pillar/angle/segment]
-- New idea generated: "[New idea title]"
-- Updated batch reflects swap
-```
-
-### Choice B: Variation angle
-```
-Generate variation on same topic with different angle:
-- Original duplicate: "[Reference X angle]"
-- New variation: "[Different approach to same topic]"
-- Format/segment shift to differentiate
-```
-
-### Choice C: Proceed anyway
-```
-Keep idea as-is despite duplicate flag
-- Note in Idea Bank: "Intentional duplicate per Vinny choice"
-- Variation might emerge in script generation (vinny-script v1.3 step)
+**Vinny override option:**
+If Vinny disagree with any strategic choice:
+- Reply "override idea N: [direction]" → mình regenerate
+- Examples: "override idea 3: use Story Bank instead", 
+           "override idea 5: bias toward Education not Story"
 ```
 
 ---
 
 ## STEP 8 — SAVE TO NOTION IDEA BANK
 
-After user resolves duplicates (or no duplicates), save final ideas:
-
+After user resolves duplicates (or no duplicates):
 - Database: Idea Bank (`34d466d8-c3ad-8001-bafb-000b62f811ba`)
-- Title, Status, Source, Pillar, Mode, Hook angle, Scores, Format, Segment
-- Story Bank Reference field
-- Reference Library Status field (Unique/Variation/Skipped/Empty)
+- Properties: Title, Status, Source, Pillar, Mode, Hook angle, Scores, Format, Segment
+- NEW v2.4 fields:
+  - Strategic Goal
+  - Brand Pillar
+  - Content Lever
+  - Story Bank Used (YES/NO + reason)
 
 ---
 
 ## STEP 9 — TELEGRAM SUMMARY
 
 ```
-Sáng nay đã research [N] ideas mới (mix: X% Growth / Y% MOF+BOF):
+Sáng nay đã research [N] ideas mới:
+
+Strategic mix:
+- Pillars: [Authority X, Lifestyle Y, Education Z, ...]
+- Levers: [Story X, Teach Y, Opine Z, ...]
+- Story Bank: [X% usage]
 
 Top 3 recommend:
-1. [hook] (G:X C:Y V:Z) — [Mode] — [Format] — [1-line why]
+1. [hook] — [Pillar] — [Lever] — [1-line strategic why]
 2. ...
 3. ...
 
-Story Bank pull:
-- [Section/Story used]
-- [Client transformation referenced]
+Reference Library check: [Unique X / Duplicates Y / Empty]
 
-Reference Library check:
-- Unique: X ideas
-- Duplicates flagged: Y (require Vinny choice)
-- Library empty: [yes/no]
-
-Patterns đang hot:
-- [pattern]
+Strategic observation:
+- [Insight about viral patterns this week]
 
 Full ideas → Notion Idea Bank.
-[If duplicates flagged] Resolve duplicates first: Reply A/B/C cho Idea #N
-[If no duplicates] Ship Top 3? Reply: 'Generate scripts cho idea 1, 2, 3'
+[If duplicates flagged] Resolve: Reply A/B/C cho Idea #N
+[If override needed] Reply "override idea N: [direction]"
+[Otherwise] Ship Top 3? Reply: 'Generate scripts cho idea 1, 2, 3'
 ```
 
 ---
 
-## CREATIVE PRINCIPLES — Idea generation levers
+## STEP 10 — HANDLE OVERRIDE RESPONSES
+
+Vinny có thể override skill's autonomous decisions:
+
+**Override types:**
+- "override idea N: use Story Bank instead" → regenerate với Story Bank pull
+- "override idea N: bias toward Education" → regenerate với education lever
+- "override idea N: different format" → regenerate với new format
+- "override idea N: skip entirely" → remove from batch + generate alternative
+- "override batch: more lifestyle content" → regenerate batch với pillar shift
+
+**Skill response:**
+1. Acknowledge override
+2. Apply Vinny's direction
+3. Regenerate affected ideas
+4. Output updated batch
+
+---
+
+## CREATIVE PRINCIPLES — Generation levers
 
 ### Hook techniques
-- **Pattern interrupt:** Unexpected opener
-- **Number-led:** "80% of guys làm 2 jobs..."
-- **Counter-conventional:** "Đếm calo không hiệu quả..."
-- **Story opener:** "3 năm trước mình..." (Story Bank)
-- **Bold claim:** "Đây là sự thật mà gym brokie không nói..."
-- **POV/visual:** "Anh em IT ca đêm, 2 AM..."
-- **Question hook:** "Tại sao client mình giảm 41lbs trong 5 tháng?" (Client Bank)
-- **Quote provocation:** "Anh đó nói: 'Mày sẽ không bao giờ kiếm cao hơn anh'" (Story Bank §3)
+- Pattern interrupt
+- Number-led
+- Counter-conventional
+- Story opener (Story Bank when serves)
+- Bold claim
+- POV/visual
+- Question hook
+- Quote provocation
+- Hot take opener (Opinion lever)
+- Mythbust opener (Education lever)
+- Reaction opener (Entertainment lever)
 
-### Storytelling angles by segment
+### Storytelling angles by pillar
 
-**Segment A (Vinny's first-person from Story Bank):**
-- Pre-30 identity reflection
-- Single life balance
-- Building 3 businesses
-- 2013 NC arrival underdog
-- Self-taught fitness journey
-- Drop out college
-- 2019 lost period
+**Authority pillar:**
+- Methodology breakdowns
+- 7 năm experience moments
+- Client transformation evidence (Story Bank Client Bank)
+- Industry insider POV
 
-**Segment B (third-person clients - Client Transformations Bank):**
-- Anh Đ nail tech transformation
-- Anh V family man 6-pack
-- Anh T DIY-failure → flexibility
-- Family man stories anonymized
+**Lifestyle pillar:**
+- Florida daily life
+- Mission Gym BTS
+- Mission Garage daily ops
+- Multi-business juggling
+- Pre-30 single life
 
-**Universal:**
-- Fitness science explainers
-- Mythbusting
-- Cross-niche pattern adaptation
+**Education pillar:**
+- Fitness science explainer
+- Mythbusting universal
+- Form correction
+- Nutrition mechanism
+- Recovery science
 
-### Direct response angles
-- "If you want X, do Y"
-- Mechanism reveal
-- Mythbusting
-- Specific advice
-- Counter-conventional truth
+**Opinion pillar:**
+- Industry critique
+- Contrarian fitness takes
+- Coaching philosophy stance
+- Cultural commentary
 
-### Cultural angles
+**Entertainment pillar:**
+- Humor about gym culture
+- Self-deprecation moments
+- Trend remix
+- Reaction content
+- Relatable struggle moments
+
+**Story pillar:**
+- Origin moments (Story Bank §1-4)
+- Transformation arcs (Story Bank §7-8)
+- Coaching journey (Story Bank §6, §9)
+- Vulnerability admissions (Story Bank §7)
+
+**Culture pillar:**
 - Family dynamics (third-person)
 - Workplace context (nail/IT/restaurant)
-- Generation gap
+- Generation gap commentary
 - Immigrant experience
-- Florida + Việt-American specific
+- Code-switching dynamics
 
-### Visceral angles
-- POV / silent film
-- Visual metaphor
-- Reaction / commentary
-- Read caption format
-
-### Cross-niche viral patterns (KEY v2.3)
+### Cross-niche viral patterns (KEY v2.4)
 - Lifestyle creator → fitness application
 - Business creator → coaching authority
 - Mental health → fitness vulnerability
 - Food creator → meal prep
 - Cultural commentary → Việt-American takes
+- Comedy creator → fitness humor
+- Educational creator → mechanism deep dive
 
 ---
 
@@ -515,15 +587,16 @@ Full ideas → Notion Idea Bank.
 - ❌ "Việt kiều"
 - ❌ Politics / religion / finance flex / women stereotypes
 - ❌ Personal attacks on creators
-- ❌ Ideas requiring Vinny BỊA stories không có trong Story Bank
-- ❌ Stories with timeline impossible (Vinny born ~1996)
+- ❌ Ideas requiring Vinny BỊA stories không trong Story Bank
+- ❌ Stories with timeline impossible
 - ❌ Same Pillar 7 days in row
 - ❌ Same hook formula 3+ times in batch
 - ❌ Coaching CTA in 100% ideas
 - ❌ All talking head batch
-- ❌ Ideas without Story Bank reference for MOF/BOF
-- ❌ **NEW v2.3: Auto-skip duplicates without user choice**
-- ❌ **NEW v2.3: 100% dependency on Reference Library**
+- ❌ **NEW v2.4: Story Bank usage WITHOUT serves test reasoning**
+- ❌ **NEW v2.4: Single pillar dominance (>50% one pillar in batch)**
+- ❌ **NEW v2.4: Strategic reasoning skipped per idea**
+- ❌ **NEW v2.4: Generic ideas without brand-building rationale**
 
 ---
 
@@ -534,8 +607,8 @@ Q1 review (Tuần 12):
 - Anti-patterns mới → add
 - Cross-niche patterns discovered → add
 - Cultural moments calendar → add seasonal awareness
-- Story Bank new chapters → integrate
-- Reference Library winning patterns → bias generation
-- Format performance data → recalibrate
-- User choice resolution patterns → optimize duplicate handling
-- Bump version: v2.3 → v2.4 → v3.0
+- Story Bank usage ratio analysis → optimize "serves test"
+- Brand pillar performance data → recalibrate distribution
+- Format performance → recalibrate suggestions
+- Override patterns from Vinny → learn preferences
+- Bump version: v2.4 → v2.5 → v3.0
